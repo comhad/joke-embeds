@@ -17,4 +17,5 @@ def youtube() :
     splitTitle = soup.title.string.split("-")
     splitTitle.pop()
     renderDict["title"] = "-".join(splitTitle)
+    renderDict["author"] = soup.find_all('link')[23]
     return render_template("embeds/youtube.html", renderDict=renderDict)
