@@ -18,4 +18,11 @@ def youtube() :
     splitTitle.pop()
     renderDict["title"] = "-".join(splitTitle)
     renderDict["author"] = soup.find_all('link')[23]
-    return render_template("embeds/youtube.html", renderDict=renderDict)
+    return render_template("embeds/youtube.html", renderDict=renderDict) 
+
+@app.route("/raw/<string:video>")
+def raw(video) :
+    renderDict = {}
+    videoId = video.split(".").pop(0) # people can put .mp4 or .ogg after this
+    renderDict["id"] = videoId
+    return render_template("embeds/raw.html", renderDict=renderDict)
