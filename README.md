@@ -4,7 +4,11 @@ A flask server no one asked for to makes embeds for discord to rickroll people a
 # Usage
 This server is designed to create embeds in discord by recieving a youtube video ID, and make an embed that disguises the Never Gonna Give You Up youtube video as that video.
 
-You need to prefix the URLs, either with the app name (`<appname>.herokuapp.com`) or add your own domain to it, In the examples I've added a `cdn` subdomain of my domain `quotebot.me`, although you can choose any subdomain, or not have one at all.
+You can get a Youtube video ID by going to the video and select everything after `watch?=`.
+
+![A youtube video ID being highlighted](https://github.com/comhad/joke-embeds/blob/main/media/youtube_id.PNG?raw=true)
+
+You need to prefix the URLs, either with the app name (`<appname>.herokuapp.com`) or add your own domain to it, In the examples I've added a `cdn` subdomain of my domain `quotebot.me`, although you can choose any subdomain, or not have one at all. You also need to prefix it with either `https://` or `http://`, if you're using a custom domain, you may have some issues with `https://`, but either will work.
 
 ## Youtube style embed
 To make a Youtube style embed, do `/yt?video=` followed by your Youtube video ID, and post it to discord, this will create a video embed that looks similar to Youtube's embeds.
