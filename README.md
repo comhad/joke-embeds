@@ -1,6 +1,6 @@
 # `joke-embeds`
 A flask server no one asked for to makes embeds for discord to rickroll people and other things, well just rick roll people at the moment.
-> If you've used Heroku before, you've probably received an email telling you that Heroku are shutting down some free tier products. As you might've guessed, the `joke-embeds` app was designed to run on these free dynos. With the shutdown of these free dynos, I've decided to stop hosting the app on cdn.quotebot.me, since I don't use it anymore, and I don't receive any comments on this post or the YouTube video of the app.
+> If you've used Heroku before, you've probably received an email telling you that Heroku are shutting down some free tier products. As you might've guessed, the `joke-embeds` app was designed to run on these free dynos. With the shutdown of these free dynos, I've decided to stop hosting the app on cdn.quotebot.me, since I don't use it anymore, and I don't receive any comments on the blog post or the YouTube video of the app.
 
 # Usage
 This server is designed to create embeds in discord by recieving a youtube video ID, and make an embed that disguises the Never Gonna Give You Up youtube video as that video.
